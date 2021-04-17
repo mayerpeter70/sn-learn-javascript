@@ -14,5 +14,5 @@ gs.info(i = 4); // WATCH OUT!!!
 
 var p = 5 //Integer
 var q = '5' //String
-gs.log(p == q) //compares value -> true
-gs.log(p === q) //compares value and variable type -> false 
+gs.log(p == q) //compares value -> returns true
+gs.log(p === q) //compares value AND variable type -> returns false 
