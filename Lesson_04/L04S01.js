@@ -15,7 +15,11 @@ gs.info(a + b);
 
 // Increment by 1
 a++;
+++a;
 gs.info(a);
+gs.info(++a);//increment first and then print
+gs.info(a++);//print first and then increment (
+
 
 // Decrement by 1
 b--;
@@ -31,7 +35,8 @@ gs.info(a / b);
 gs.info('');
 gs.info(a);
 gs.info(b);
-gs.info(a % b);
+gs.info(a % b); //% returns the remainder -> useful when need to select every 2nd, 3rd...etc record -> do action when remainder is 0
+
 
 var c = (5 + 4) * 2;
 gs.info(c);
