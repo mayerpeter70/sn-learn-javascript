@@ -2,7 +2,9 @@
 // L33S01 - Classes, Objects, and Prototypes
 //
 
-var person = Class.create();
+
+//Create and define the class
+var person = Class.create(); //keyword: create the person class (template) 
 person.prototype = {
     initialize: function() {
       this.firstName = '';
@@ -24,6 +26,8 @@ person.prototype = {
     type: person
 };
 
+
+//Create an object based on the class 
 var me = new person();
 me.setFirstName('Chuck');
 me.setLastName('Tomasi')
