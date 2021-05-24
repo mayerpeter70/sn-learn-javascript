@@ -3,7 +3,7 @@
 //
 var i = 0;
 var done = false;
-while (!done) {
+while (!done) { //negaive statement -> false is not true [-(-)] -> statement is true, loop is going on  
   if (i < 5) {
     ++i;
     gs.info(i + ' done=' + done);
